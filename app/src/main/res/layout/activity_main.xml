@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"/>
+        <!--access id in mainactivity.kt file
+        by using id of listview access object of id  in mainactivity.kt file
+        read all sms and store in arraylist<smsview>
+        create object of adapter of list view and assign to listview object
+        allow manifest file permissions
+        write requestsmspermission after on create method n main activity file
+        create loadsmsminbox after this (requestsmspermission) above
+        issmsread/write method check it
+        -->
+
+</LinearLayout>
